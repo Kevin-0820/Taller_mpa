@@ -1,0 +1,53 @@
+.centered{
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+.modal {
+    display: none; /* Por defecto oculto */
+    position: fixed; /* Se posiciona encima del contenido */
+    z-index: 1; /* Se coloca encima de todo */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ancho de toda la pantalla */
+    height: 100%; /* Altura de toda la pantalla */
+    overflow: auto; /* Agrega desplazamiento si es necesario */
+    background-color: rgb(0,0,0); /* Fondo oscuro */
+    background-color: rgba(0,0,0,0.4); /* Fondo oscuro con opacidad */
+    padding-top: 60px; /* Espacio para el contenido */
+}
+
+/* Estilos para el contenido del formulario */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* Estilos para los campos del formulario */
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
